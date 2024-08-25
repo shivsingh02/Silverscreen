@@ -1,0 +1,65 @@
+.genre-cards {
+  width: 90vw;
+  /* min-width: max-content; */
+  /* margin: 0 2.5em; */
+  /* padding: 0 2.5em; */
+  overflow-x: scroll;
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* Internet Explorer and Edge */
+}
+
+.genre-cards::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, and Opera */
+}
+
+.genre-card-each h1 {
+  
+  text-align: center;
+}
+.genre-cards {
+  overflow-x: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.genre-card-each
+{
+  transition: 1s;
+}
+
+
+.genre-cards::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, and Opera */
+}
+
+.genre-card-each {
+  min-width: max-content;
+  color: rgb(0, 0, 0);
+  text-align: center !important;
+  height: 50px;
+  background-color: rgba(7, 105, 132, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 0;
+  margin: 50px 20px;
+  /* width: 150px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  
+
+
+ 
+}
+.genre-card-each h1 {
+  font-size: 1.2rem;
+  /* font-weight: 300; */
+  text-align: center;
+  color: white;
+}

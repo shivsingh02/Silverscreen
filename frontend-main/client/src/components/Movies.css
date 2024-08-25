@@ -1,0 +1,10 @@
+.carousel {
+    width: 80vw; 
+    height: 20%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+    border-radius: 30px;
+  }
+  

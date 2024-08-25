@@ -1,0 +1,7 @@
+/* assets/fonts/fonts.css */
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins.ttf') format('truetype');
+    /* Add other font formats if needed */
+}

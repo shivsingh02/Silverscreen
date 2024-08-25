@@ -1,0 +1,148 @@
+.navbar {
+  border: 0px;
+  /* position: relative; */
+  /* position: absolute;
+    top: 0px; */
+  transition: 0.5s;
+  z-index: 40;
+  color: white;
+}
+
+.clicked {
+  /* Add your desired styles here */
+  border-color: blue;
+  box-shadow: 0 0 5px blue;
+  /* Add more styles as needed */
+}
+
+.sticky2 {
+  /* background-color: rgba(255, 255, 255, 0.95); */
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-container {
+
+  align-items: center;
+}
+
+.navbar-container li {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-icon {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.search-input {
+  opacity: 1;
+  width: 350px;
+  /* Set initial width for the search input */
+  transition: width 0.3s ease;
+  /* Add transition effect for width change */
+}
+
+/* Show search icon when hovering over the search input */
+.relative:hover .search-icon {
+  opacity: 1;
+}
+
+/* Change width of search input when hovering over the search icon */
+.relative:hover .search-input {
+  opacity: 1;
+  width: 350px;
+}
+
+.profile-btn p {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 15px;
+  border-radius: 30px;
+  font-size: 1rem;
+}
+
+.navbar-notch {
+  color: white;
+  background: rgba(0, 0, 0, 1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 8px;
+  padding-left: 20px;
+  border-radius: 30px;
+}
+
+.navbar-notch p {
+  color: white;
+}
+
+.search-input,
+#search-navbar {
+  background-color: black;
+  border-radius: 30px;
+}
+
+@media (max-width: 900px) {
+  .navbar-notch {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255) !important;
+    padding: 8px;
+    padding-left: 20px;
+    border-radius: 30px;
+  }
+
+  .navbar-notch p {
+    color: rgb(0, 0, 0);
+  }
+
+  .search-input,
+  #search-navbar {
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    color: rgb(255, 247, 247);
+    /* width: 300px; */
+    border-color: black;
+    /* border-width: 2px !important; */
+  }
+}
+#search-navbar {
+  color: rgb(255, 255, 255); /* Change the color to your desired color */
+}
+
+/* Add these styles to your existing CSS file or create a new one */
+
+.AutoCompleteWrapper {
+  position: fixed !important;
+  background-color: rgba(255, 255, 255, 0.75) !important;
+  border: 1px solid #ccc !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+  margin-top: 8px !important;
+  width: 300px !important; /* Adjust width as needed */
+  left: calc(50% - 120px) !important; /* Center horizontally */
+  z-index: 10 !important;
+  display: flex;
+  justify-content: center; /* Align content horizontally */
+  align-items: center; /* Align content vertically */
+}
+
+.AutoCompleteWrapper ul {
+  padding: 0 !important;
+  list-style-type: none !important;
+}
+
+.AutoCompleteWrapper li {
+  cursor: pointer !important;
+  padding: 8px !important;
+  text-align: center !important; /* Center align text */
+}
+
+.AutoCompleteWrapper li:hover {
+  background-color: #f0f0f0 !important;
+}
